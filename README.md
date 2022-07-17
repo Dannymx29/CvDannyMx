@@ -1,20 +1,34 @@
 # Cv Danny Mx 29
 
-- Estudios generales
-		- Preparatoria
-		- Universidad
-- Experiencia Laboral
-		- Madrax
-		- Sitec
-		- Constructora Arco
-		- Grupo Batia
-		- Grupo Fibra Danhos
-- Estudios en Desarrollo web
-		- Curso de Prework: Configuracion de Entorno de Desarrollo en Windows
-		- Curso de Frontend Developer
-		- Curso Practico de Frontend Developer
-		- Curso Basico de JavaScript
-		- Curso de Bootstrap 4
+- Estudios generales:
+
+- Preparatoria
+
+- Universidad
+
+- Experiencia Laboral:
+
+- Madrax
+
+- Sitec
+
+- Constructora Arco
+
+- Grupo Batia
+
+- Grupo Fibra Danhos
+
+- Estudios en Desarrollo web:
+
+- Curso de Prework: Configuracion de Entorno de Desarrollo en Windows
+
+- Curso de Frontend Developer
+
+- Curso Practico de Frontend Developer
+
+- Curso Basico de JavaScript
+
+- Curso de Bootstrap 4
 
 # Referencias
 
