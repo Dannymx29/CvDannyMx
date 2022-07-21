@@ -7,4 +7,20 @@ body
 {
     color: rgb(108, 166, 233);
 }
-
+#estudios {
+    background: #FDFF81;
+}
+#estudios img
+{
+    width: 350px;
+}
+#estudios h1,
+#estudios h2,
+#estudios h5
+{
+    text-align: center;
+}
+#estudios p
+{
+    text-align: left !important;
+}
