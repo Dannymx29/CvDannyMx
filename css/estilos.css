@@ -24,3 +24,21 @@ body
 {
     text-align: left !important;
 }
+#trabajo
+{
+    background-image: url(https://scontent.fmex25-1.fna.fbcdn.net/v/t39.30808-6/294826708_5267756373304503_1005417187188719345_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeHfo-pFOyVBa_C2i01Qhd7QLi09JrzimmQuLT0mvOKaZJxK2vA548ndfZ45EhxWFldh0QWSrFeIKHh5nXgxbwF2&_nc_ohc=3jCzZJOTA84AX8Kjpna&tn=RBVd9ai_PFRzi8Vs&_nc_ht=scontent.fmex25-1.fna&oh=00_AT8hsouwktKRI5zXTuosY9A2e13VuA4waFWTYFBKWlx86A&oe=62DD0F73);
+    text-shadow: 0 0 0.2em black, 0 0 0.2em black,
+    0 0 0.2em black;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+#trabajo .card
+{
+    color: white;
+    text-align: center;
+}
+#grupoBatia ul
+{
+    font-size: 0.8em;
+}
