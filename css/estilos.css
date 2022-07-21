@@ -51,7 +51,7 @@ body
 }
 #footer{
     background-image: url(https://cdn.pixabay.com/photo/2021/01/17/02/02/planets-5923806_960_720.jpg);
-    color: white;
+    color: rgb(108, 166, 233);
 }
 #footer img{
     padding-top: 15px;
