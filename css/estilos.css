@@ -57,3 +57,21 @@ body
     padding-top: 15px;
     width: 150px;
 }
+@media(max-width: 992px){
+    #estudios img
+{
+    width: 200px;
+}
+}
+@media(max-width: 768px){
+    #estudios img
+{
+    width: 350px;
+}
+}
+@media(max-width: 576px){
+    #estudios img
+{
+    width: 200px;
+}
+}
