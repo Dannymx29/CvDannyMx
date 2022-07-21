@@ -8,15 +8,13 @@ body
     color: rgb(108, 166, 233);
 }
 #estudios {
-    background: #FDFF81;
+    background-image: url(https://scontent.fmex36-1.fna.fbcdn.net/v/t31.18172-8/1400634_556588421088012_1408086233_o.jpg?_nc_cat=100&ccb=1-7&_nc_sid=cdbe9c&_nc_eui2=AeEJo7nX0qExpHZWJrBZnK1irbtYKDlFLJGtu1goOUUskTsIIpUpNNOBFPKDTf1y28lPmY6Gtj3MJaMsBRPg0fYg&_nc_ohc=Zuv46DnlKfsAX_A_Q9N&_nc_ht=scontent.fmex36-1.fna&oh=00_AT8_7EhCKLDzqURCYVIgxVMzV3kN9OSFSOBUUTKvwmx2zQ&oe=62FDAE08);
 }
 #estudios img
 {
     width: 350px;
 }
-#estudios h1,
-#estudios h2,
-#estudios h5
+#estudios h1
 {
     text-align: center;
 }
@@ -24,21 +22,30 @@ body
 {
     text-align: left !important;
 }
+#estudios .card,
+#estudios h1,
+#estudios p
+{
+    color: black;
+    text-align: center;
+    text-shadow: 0 0 0.2em rgb(108, 166, 233), 0 0 0.2em rgb(108, 166, 233),0 0 0.2em rgb(108, 166, 233);
+    font-weight: 800;
+}
 #trabajo
 {
     background-image: url(https://scontent.fmex25-1.fna.fbcdn.net/v/t39.30808-6/294826708_5267756373304503_1005417187188719345_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeHfo-pFOyVBa_C2i01Qhd7QLi09JrzimmQuLT0mvOKaZJxK2vA548ndfZ45EhxWFldh0QWSrFeIKHh5nXgxbwF2&_nc_ohc=3jCzZJOTA84AX8Kjpna&tn=RBVd9ai_PFRzi8Vs&_nc_ht=scontent.fmex25-1.fna&oh=00_AT8hsouwktKRI5zXTuosY9A2e13VuA4waFWTYFBKWlx86A&oe=62DD0F73);
-    text-shadow: 0 0 0.2em black, 0 0 0.2em black,
-    0 0 0.2em black;
+    text-shadow: 0 0 0.2em black, 0 0 0.2em black,0 0 0.2em black;
     font-weight: 400;
     color: white;
     text-align: center;
 }
-#trabajo .card
+#trabajo .card,
+#trabajo a
 {
     color: white;
     text-align: center;
 }
 #grupoBatia ul
 {
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
