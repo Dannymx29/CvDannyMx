@@ -49,6 +49,13 @@ body
 {
     font-size: 0.9em;
 }
+#imagenes h1,
+#imagenes h5,
+#imagenes p
+{
+    color: black !important;
+    
+}
 #footer{
     background-image: url(https://cdn.pixabay.com/photo/2021/01/17/02/02/planets-5923806_960_720.jpg);
     color: rgb(108, 166, 233);
@@ -74,4 +81,20 @@ body
 {
     width: 200px;
 }
+}
+@media(max-width: 995px){
+    #imagenes .pad
+    {
+        font-size: small;
+        padding-bottom: 0px !important;
+        
+        
+    }
+}
+@media(max-width: 700px){
+    #imagenes img
+    {
+        height: 60%;
+        object-fit: cover;      
+    }
 }
