@@ -2,13 +2,18 @@ body
 {
     font-family: 'Gayathri', sans-serif !important;
 }
+#nav
+{
+    background-image: url(https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
 #nav small,
 #nav h1
 {
-    color: rgb(108, 166, 233);
+    color: black;
 }
-#estudios {
-    background-image: url(https://scontent.fmex36-1.fna.fbcdn.net/v/t31.18172-8/1400634_556588421088012_1408086233_o.jpg?_nc_cat=100&ccb=1-7&_nc_sid=cdbe9c&_nc_eui2=AeEJo7nX0qExpHZWJrBZnK1irbtYKDlFLJGtu1goOUUskTsIIpUpNNOBFPKDTf1y28lPmY6Gtj3MJaMsBRPg0fYg&_nc_ohc=Zuv46DnlKfsAX_A_Q9N&_nc_ht=scontent.fmex36-1.fna&oh=00_AT8_7EhCKLDzqURCYVIgxVMzV3kN9OSFSOBUUTKvwmx2zQ&oe=62FDAE08);
+#estudios 
+{
+    background-image: url(https://scontent.fmex24-1.fna.fbcdn.net/v/t31.18172-8/1400634_556588421088012_1408086233_o.jpg?_nc_cat=100&ccb=1-7&_nc_sid=cdbe9c&_nc_eui2=AeEJo7nX0qExpHZWJrBZnK1irbtYKDlFLJGtu1goOUUskTsIIpUpNNOBFPKDTf1y28lPmY6Gtj3MJaMsBRPg0fYg&_nc_ohc=Zuv46DnlKfsAX9JXCQB&_nc_ht=scontent.fmex24-1.fna&oh=00_AT8IyMCCoVK7O3yaWoPwQ4Tw-sUmnYfGVl7rEGRcjEb05A&oe=6301A288);
 }
 #estudios img
 {
@@ -33,16 +38,16 @@ body
 }
 #trabajo
 {
-    background-image: url(https://scontent.fmex25-1.fna.fbcdn.net/v/t39.30808-6/294826708_5267756373304503_1005417187188719345_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeHfo-pFOyVBa_C2i01Qhd7QLi09JrzimmQuLT0mvOKaZJxK2vA548ndfZ45EhxWFldh0QWSrFeIKHh5nXgxbwF2&_nc_ohc=3jCzZJOTA84AX8Kjpna&tn=RBVd9ai_PFRzi8Vs&_nc_ht=scontent.fmex25-1.fna&oh=00_AT8hsouwktKRI5zXTuosY9A2e13VuA4waFWTYFBKWlx86A&oe=62DD0F73);
-    text-shadow: 0 0 0.2em black, 0 0 0.2em black,0 0 0.2em black;
-    font-weight: 400;
+    background-image: url(https://scontent.fmex24-1.fna.fbcdn.net/v/t39.30808-6/294653250_5267755389971268_555749530196113389_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeFUIJOquTVsNFA-5VEmMrhohz9bMHf_bNOHP1swd_9s0-EY-DXTvht8neMVh3QYv1hpcC3OfPwHBbJa7uTd8r35&_nc_ohc=bfQzqdJG2m0AX83JFIP&_nc_ht=scontent.fmex24-1.fna&oh=00_AT9IFaD5nKy5PdAFX0w75wK_KXy5SiBgcPsIcPB5MBFLfQ&oe=62DF3955);
+    text-shadow: 0 0 0.2em white, 0 0 0.2em white,0 0 0.2em white;
+    font-weight: 600;
     color: white;
     text-align: center;
 }
 #trabajo .card,
 #trabajo a
 {
-    color: white;
+    color: black;
     text-align: center;
 }
 #grupoBatia ul
@@ -56,39 +61,43 @@ body
     color: black !important;
     
 }
-#footer{
+#footer
+{
     background-image: url(https://cdn.pixabay.com/photo/2021/01/17/02/02/planets-5923806_960_720.jpg);
     color: rgb(108, 166, 233);
 }
-#footer img{
+#footer img
+{
     padding-top: 15px;
     width: 150px;
 }
-@media(max-width: 992px){
-    #estudios img
+@media(max-width: 992px)
 {
-    width: 200px;
-}
-}
-@media(max-width: 768px){
     #estudios img
+    {
+        width: 200px;
+    }
+}
+@media(max-width: 768px)
 {
-    width: 350px;
-}
-}
-@media(max-width: 576px){
     #estudios img
+    {
+        width: 350px;
+    }
+}
+@media(max-width: 576px)
 {
-    width: 200px;
+    #estudios img
+    {
+        width: 200px;
+    }
 }
-}
-@media(max-width: 995px){
+@media(max-width: 995px)
+{
     #imagenes .pad
     {
         font-size: small;
-        padding-bottom: 0px !important;
-        
-        
+        padding-bottom: 0px !important;  
     }
 }
 @media(max-width: 700px){
