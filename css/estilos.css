@@ -54,6 +54,11 @@ body
 {
     font-size: 0.9em;
 }
+#imagenes .carousel-item img{
+    width: 75%;
+    height: 75vh;
+    object-fit: cover;
+}
 #imagenes h1,
 #imagenes h5,
 #imagenes p
@@ -71,11 +76,24 @@ body
     padding-top: 15px;
     width: 150px;
 }
-@media(max-width: 992px)
+
+@media(max-width: 576px)
 {
+    #nav abbr
+    {
+        font-size: small;
+    }
     #estudios img
     {
         width: 200px;
+    }
+}
+@media(max-width: 700px)
+{
+    #imagenes img
+    {
+        height: 60%;
+        object-fit: cover;      
     }
 }
 @media(max-width: 768px)
@@ -84,26 +102,22 @@ body
     {
         width: 350px;
     }
+    #imagenes .carousel-item img
+    {
+        width: 50%;
+        height: 50vh;
+        object-fit: cover;
+    }
 }
-@media(max-width: 576px)
+@media(max-width: 992px)
 {
     #estudios img
     {
         width: 200px;
     }
-}
-@media(max-width: 995px)
-{
     #imagenes .pad
     {
         font-size: small;
         padding-bottom: 0px !important;  
-    }
-}
-@media(max-width: 700px){
-    #imagenes img
-    {
-        height: 60%;
-        object-fit: cover;      
     }
 }
