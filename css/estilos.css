@@ -13,7 +13,7 @@ body
 }
 #estudios 
 {
-    background-image: url(https://scontent.fmex24-1.fna.fbcdn.net/v/t31.18172-8/1400634_556588421088012_1408086233_o.jpg?_nc_cat=100&ccb=1-7&_nc_sid=cdbe9c&_nc_eui2=AeEJo7nX0qExpHZWJrBZnK1irbtYKDlFLJGtu1goOUUskTsIIpUpNNOBFPKDTf1y28lPmY6Gtj3MJaMsBRPg0fYg&_nc_ohc=Zuv46DnlKfsAX9JXCQB&_nc_ht=scontent.fmex24-1.fna&oh=00_AT8IyMCCoVK7O3yaWoPwQ4Tw-sUmnYfGVl7rEGRcjEb05A&oe=6301A288);
+    background-image: url(https://images.pexels.com/photos/13512934/pexels-photo-13512934.jpeg?auto=compress&cs=tinysrgb&w=2000&h=1200&dpr=1);
 }
 #estudios img
 {
@@ -38,10 +38,10 @@ body
 }
 #trabajo
 {
-    background-image: url(https://scontent.fmex24-1.fna.fbcdn.net/v/t39.30808-6/294653250_5267755389971268_555749530196113389_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeFUIJOquTVsNFA-5VEmMrhohz9bMHf_bNOHP1swd_9s0-EY-DXTvht8neMVh3QYv1hpcC3OfPwHBbJa7uTd8r35&_nc_ohc=bfQzqdJG2m0AX83JFIP&_nc_ht=scontent.fmex24-1.fna&oh=00_AT9IFaD5nKy5PdAFX0w75wK_KXy5SiBgcPsIcPB5MBFLfQ&oe=62DF3955);
-    text-shadow: 0 0 0.2em white, 0 0 0.2em white,0 0 0.2em white;
+    background-image: url(https://images.pexels.com/photos/13511470/pexels-photo-13511470.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load);
+    text-shadow: 0 0 0.2em green, 0 0 0.2em white,0 0 0.2em white;
     font-weight: 600;
-    color: white;
+    color: black;
     text-align: center;
 }
 #trabajo .card,
