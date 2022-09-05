@@ -13,7 +13,7 @@ body
 }
 #estudios 
 {
-    background-image: url(https://images.pexels.com/photos/13512934/pexels-photo-13512934.jpeg?auto=compress&cs=tinysrgb&w=2000&h=1200&dpr=1);
+    background-image: url(https://images.pexels.com/photos/13512934/pexels-photo-13512934.jpeg?auto=compress&cs=tinysrgb&w=2000&lazy=load);
 }
 #estudios img
 {
@@ -65,6 +65,10 @@ body
 {
     color: black !important;
     
+}
+#imagenes img
+{
+    object-fit: contain !important;
 }
 #footer
 {
