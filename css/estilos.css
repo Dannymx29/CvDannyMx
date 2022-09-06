@@ -11,6 +11,34 @@ body
 {
     color: black;
 }
+#developer 
+{
+    background-image: url(https://images.pexels.com/photos/5829726/pexels-photo-5829726.jpeg?auto=compress&cs=tinysrgb&w=1260&lazy=load);
+}
+#developer h1,
+#developer h2
+{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 0.2em purple, 0 0 0.2em purple,0 0 0.2em purple;
+    font-weight: 600;
+}
+#developer p,
+#developer button
+{
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 0.2em purple, 0 0 0.2em purple,0 0 0.2em purple;
+    font-weight: 400;
+}
+#developer ul
+{
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 0.2em purple, 0 0 0.2em purple,0 0 0.2em purple;
+    font-weight: 400;
+}
 #estudios 
 {
     background-image: url(https://images.pexels.com/photos/13512934/pexels-photo-13512934.jpeg?auto=compress&cs=tinysrgb&w=2000&lazy=load);
@@ -39,7 +67,7 @@ body
 #trabajo
 {
     background-image: url(https://images.pexels.com/photos/13511470/pexels-photo-13511470.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load);
-    text-shadow: 0 0 0.2em green, 0 0 0.2em white,0 0 0.2em white;
+    text-shadow: 0 0 0.2em green, 0 0 0.2em green,0 0 0.2em green;
     font-weight: 600;
     color: black;
     text-align: center;
