@@ -16,7 +16,8 @@ body
     background-image: url(https://images.pexels.com/photos/5829726/pexels-photo-5829726.jpeg?auto=compress&cs=tinysrgb&w=1260&lazy=load);
 }
 #developer h1,
-#developer h2
+#developer h2,
+#developer h3
 {
     padding: 20px;
     text-align: center;
