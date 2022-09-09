@@ -11,6 +11,33 @@ body
 {
     color: black;
 }
+#developer 
+{
+    padding: 20px;
+    text-align: center;
+    background-image: url(https://images.pexels.com/photos/5829726/pexels-photo-5829726.jpeg?auto=compress&cs=tinysrgb&w=1260&lazy=load);
+}
+#developer h1
+{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 0.2em purple, 0 0 0.2em purple,0 0 0.2em purple;
+    font-weight: 600;
+}
+#developer p,
+#developer ul
+{
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 0.2em purple, 0 0 0.2em purple,0 0 0.2em purple;
+    font-weight: 400;
+}
+#clip1
+{
+    width: 90%;
+    height: 90%;
+}
 #estudios 
 {
     background-image: url(https://images.pexels.com/photos/13512934/pexels-photo-13512934.jpeg?auto=compress&cs=tinysrgb&w=2000&lazy=load);
@@ -39,7 +66,7 @@ body
 #trabajo
 {
     background-image: url(https://images.pexels.com/photos/13511470/pexels-photo-13511470.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load);
-    text-shadow: 0 0 0.2em green, 0 0 0.2em white,0 0 0.2em white;
+    text-shadow: 0 0 0.2em green, 0 0 0.2em green,0 0 0.2em green;
     font-weight: 600;
     color: black;
     text-align: center;
@@ -91,6 +118,27 @@ body
     {
         width: 200px;
     }
+    #developer p
+    {
+        display: none;
+    }
+    #Nombre,
+    #Empresa,
+    #email
+    {
+        width: 60%;
+    }
+    #in2b,
+    #in2a
+    {
+        width: 30%;
+        color: purple;
+    }
+    #clip1
+    {
+        width: 95%;
+        height: 65%;
+    }
 }
 @media(max-width: 700px)
 {
@@ -124,4 +172,5 @@ body
         font-size: small;
         padding-bottom: 0px !important;  
     }
+    
 }
