@@ -87,25 +87,25 @@ function developer(){
     divRd3.className = "row"    
     divCd3.className = "offset-1 col-sm-9"
     clip1.id = "clip1";
-    clip1.className = "clip1";
-    clip1.setAttribute("src", './TierraTecnologica.mp4');
+    clip1.className = "clip1 d-none";
+    clip1.setAttribute("src", '../TierraTecnologica.mp4');
     enlace.id = "enlace";
     enlace.className = "enlace col-sm-3 mb-1 ml-1";
     enlace.textContent = 'Mas información.';
     enlace.setAttribute('href','https://github.com/Dannymx29');
     clip1play.id = "clip1play";
     clip1play.type = "button";
-    clip1play.className = "col-sm-3 mb-1 ml-1 btn btn-outline-secondary";
+    clip1play.className = "col-sm-3 mb-1 ml-1 btn btn-outline-secondary d-none";
     clip1play.textContent = "Play";
     clip1pausa.id = "clip1pausa";
     clip1pausa.type = "button";
-    clip1pausa.className = "col-sm-3 mb-1 ml-1 btn btn-outline-secondary";
+    clip1pausa.className = "col-sm-3 mb-1 ml-1 btn btn-outline-secondary d-none";
     clip1pausa.textContent = "Pausa";
             
     //contenido para html
     const text_h2 = document.createTextNode('Developer');
     const text_h3 = document.createTextNode('Cursos Certificados por Platzi');
-    const text_p = document.createTextNode('Esta seccion se esta desarrollando por medio de la manipulacion del DOM con JavaScript. Una de las razon por la que decidi volverme desarrollador, es para ayudar a los usuarios a que pueda tener mas facil el acceso a la informacion que necesitan mediente el desarrollo web. Y para eso hay que seguir trabajando...');
+    const text_p = document.createTextNode('Esta seccion se esta desarrollando por medio de la manipulacion del DOM con JavaScript. Una de las razon por la que decidi volverme desarrollador web, es para ayudar a la gente a que pueda tener mas facil el acceso a la informacion que necesite mediente. Y para eso hay que seguir trabajando y aprendiendo...');
     const text_list1 = document.createTextNode('1.- Diploma Prework Windows');
     const text_list2 = document.createTextNode('2.- Diploma Frontend Developer');
     const text_list3 = document.createTextNode('3.- Diploma Frontend Developer Practico');
@@ -144,11 +144,11 @@ function developer(){
     //titulo
     divCond.appendChild(divRd);
     divRd.appendChild(divCd);
-    divCd.appendChild(h2);    
+    divCd.appendChild(h3);    
     //titulo, parrafo y 
     divCond.appendChild(divRd2);
     divRd2.appendChild(divCd2a);
-    divCd2a.appendChild(h3);
+    divCd2a.appendChild(h2);
     divCd2a.appendChild(p);
     divRd2.appendChild(divCd2b);
     divCd2b.appendChild(ul);
@@ -214,7 +214,7 @@ form.id = "CV";
 h1.textContent = 'Bienvenido a mi Cv.';
 divCon.className = "container";
 divR.className = "row";
-divC.className = "offset-1 col-sm-5 mb-3";
+divC.className = "offset-1 col-sm-5 mb-3 d-none";
 in1a.id = "Nombre";
 in1a.type = "text";
 in1a.classList = "form-control mb-1 offset-2 col-lg-8 offset-lg-4 col-xl-8 offset-xl-2";
@@ -230,10 +230,10 @@ in1c.setAttribute('type', 'email');
 in1c.classList = "form-control offset-2 col-lg-8 offset-lg-4 col-xl-8 offset-xl-2";
 in1c.setAttribute('placeholder', 'ingresa tu email');
 in1c.required = true;
-divC2.className = "col-sm-5 mb-3";
+divC2.className = "col-sm-5 mb-3 ml-auto mr-auto";
 in2a.id = "in2a";
 in2a.value = "Entrar";
-in2a.className = "btn btn-outline-secondary mb-1 offset-4 col-lg-8 offset-lg-4 col-xl-8 offset-xl-2";
+in2a.className = "btn btn-outline-secondary mb-1";
 in2a.type = "button";
 in2a.setAttribute('onclick', 'developer()');
 in2b.id = "in2b";
@@ -242,7 +242,7 @@ in2b.className = "d-none";
 in2b.type = "submit";
 in2b.addEventListener('click', correo);
 label.id = "label-checkbox"
-label.className = "mt-2 offset-3 col-lg-8 offset-lg-4 col-xl-8 offset-xl-2";
+label.className = "d-none mt-2 offset-3 col-lg-8 offset-lg-4 col-xl-8 offset-xl-2";
 in3a.id = "checkbox";
 in3a.type = "checkbox";
 in3a.addEventListener('change', e => {permiso(e);});
