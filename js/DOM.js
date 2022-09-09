@@ -93,6 +93,7 @@ function developer(){
     enlace.className = "enlace col-sm-3 mb-1 ml-1";
     enlace.textContent = 'Mas información.';
     enlace.setAttribute('href','https://github.com/Dannymx29');
+    enlace.setAttribute('target','_blank');
     clip1play.id = "clip1play";
     clip1play.type = "button";
     clip1play.className = "col-sm-3 mb-1 ml-1 btn btn-outline-secondary d-none";
